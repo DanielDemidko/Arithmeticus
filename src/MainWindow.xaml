@@ -1,0 +1,30 @@
+﻿<Window x:ClassModifier="internal" 
+        x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Arithmeticus" 
+        Height="195" 
+        Width="525" 
+        WindowStartupLocation="CenterScreen" 
+        Background="WhiteSmoke">
+    <StackPanel Margin="0,10,0,7">
+        <TextBox FontFamily="Consolas" 
+                 x:FieldModifier="private" 
+                 x:Name="EditBox" 
+                 TextChanged="TextChanged" 
+                 Height="62" FontSize="25" 
+                 BorderThickness="0" 
+                 Foreground="#FFA06666" 
+                 Background="WhiteSmoke"/>
+        <TextBlock x:Name="ResultBox" 
+                   x:FieldModifier="private" 
+                   Height="55"  
+                   Foreground="#FF4C8787" 
+                   FontSize="20" 
+                   FontFamily="Consolas" />
+        <TextBlock Text="Arithmeticus, Автор: Даниил Демидко, Copyright ©  2016"
+                   Foreground="#FF4C8780" />
+    </StackPanel>
+</Window>
