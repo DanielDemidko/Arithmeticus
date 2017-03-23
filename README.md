@@ -1,0 +1,2 @@
+# Arithmeticus
+Interactive calculator
